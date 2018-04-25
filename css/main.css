@@ -1,1 +1,121 @@
-something
+
+/*
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Ultra', serif;
+
+    font-family: 'Bree Serif', serif;
+*/
+
+* {
+	box-sizing: border-box;
+	color: #222529;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4.5em;
+	white-space: nowrap;
+	padding-bottom: 5%;
+}
+
+h2 {
+	font-family: 'Ultra', serif;
+}
+
+p {
+	font-family: 'Bree Serif', serif;	
+}
+h3 {
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	max-height: 85%;
+}
+
+.clear {
+	clear: both;
+}
+.home-left {
+	width: 33%;
+	float: left;
+	position: fixed;
+	height: 100vh;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #FC4445;
+	padding: 25px;
+}
+
+.home-right {
+	width: 67%;
+	float: right;
+	min-height: 100vh;
+	background-color: #3FEEE6;
+	padding: 25px;
+}
+
+.year-one {
+	float: left;
+	width: 50%;
+}
+
+.year-two {
+	float: left;
+	width: 50%;
+}
+
+.box {
+	border: .15em solid #222529;
+	margin-top: 10%;
+}
+
+footer {
+	text-align: center;
+	padding-top: 5%;
+}
+
+footer p {
+	margin-top: 0;
+	padding-top: 0;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 50x;
+  padding: 1%;
+}
+@media only screen and (max-width: 1000px) { 
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 1200px) { 
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 1300px) { 
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    .home-left {
+		float: none!important;
+		width: 100%!important;
+		position: initial!important;
+		height: auto!important;
+	}
+
+	.home-right {
+		float: none!important;
+		width: 100%!important;
+	}
+}
